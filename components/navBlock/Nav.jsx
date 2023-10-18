@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
-import { Navbar } from "react-bootstrap";
+import './styles/Navstyle.css';
 function Nav() {
   return (
     <div className="App">
@@ -22,7 +22,7 @@ function Nav() {
           </button>
 
           <div
-            class="collapse navbar-collapse d-flex"
+            class="collapse navbar-collapse d-flex justify-content-between"
             id="navbarSupportedContent"
           >
             <ul class="navbar-nav mr-auto">
@@ -67,9 +67,9 @@ function Nav() {
                 </a>
               </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
+            <form class="form-inline my-2 my-lg-0 d-flex">
               <input
-                class="form-control mr-sm-2"
+                class="form-control search-ip"
                 type="search"
                 placeholder="Search"
                 aria-label="Search"
