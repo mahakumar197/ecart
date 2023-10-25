@@ -25,11 +25,13 @@ function Nav() {
             class="collapse navbar-collapse d-flex justify-content-between"
             id="navbarSupportedContent"
           >
+            <switch>
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
-                <a class="nav-link text-white" href="#">
+                {/* <a class="nav-link text-white" href="#">
                   Home <span class="sr-only">(current)</span>
-                </a>
+                </a> */}
+                  {/* <Route path="/" exact component={Home} /> */}
               </li>
               <li class="nav-item">
                 <a class="nav-link text-white" href="#">
@@ -67,6 +69,7 @@ function Nav() {
                 </a>
               </li>
             </ul>
+            </switch>
             <form class="form-inline my-2 my-lg-0 d-flex">
               <input
                 class="form-control search-ip"
